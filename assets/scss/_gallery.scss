@@ -4,6 +4,7 @@
             overflow: hidden;
             z-index: 0;
             position: relative;  
+            resize: both;
             &::after{
                 content: "";
                 background-color: rgba(11, 14, 13,0.702);
@@ -23,7 +24,7 @@
             .smoll-img{
                 height:365px;
             }
-            .gallery-img{
+            .gallery-img {
                 background-size: cover;
                 background-repeat: no-repeat;
                 height:486px;
