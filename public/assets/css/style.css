@@ -3095,8 +3095,9 @@ hr {
 
 .gallery-area .gallery-box .single-gallery .gallery-img {
     background-size: cover;
-    background-repeat: no-repeat;
-    height: 486px
+    background-position: center;
+    height: 365px;
+    width: auto;
 }
 
 .gallery-box:hover .single-gallery::after {
@@ -3217,10 +3218,8 @@ hr {
     color: #331391 !important
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .work-company .single-logo img {
-        width: 100%
-    }
+.work-company .single-logo img {
+    width: 100%;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
