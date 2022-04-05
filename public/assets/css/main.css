@@ -3343,7 +3343,7 @@ hr {
 }
 
 .single-team {
-    position: relative
+    position: relative;
 }
 
 .single-team::before {
@@ -3354,11 +3354,12 @@ hr {
     bottom: 0;
     background-size: cover;
     left: 0;
-    right: 0
+    right: 0;
 }
 
 .single-team .team-img {
-    overflow: hidden
+    
+    overflow: hidden;
 }
 
 .single-team .team-img img {

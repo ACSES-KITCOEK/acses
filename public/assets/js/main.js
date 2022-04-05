@@ -107,7 +107,23 @@
     mainSlider();
 
 /* 5. Testimonial Active*/
-
+    $('.testi3').owlCarousel({
+      loop: true,
+      margin: 30,
+      nav: false,
+      dots: true,
+      autoplay: true,
+      responsiveClass: true,
+      responsive: {
+        0: {
+          items: 1,
+          nav: false
+        },
+        1024: {
+          items: 3
+        }
+      }
+    })
 /* 4. Testimonial Active*/
     var testimonial = $('.h1-testimonial-active');
     if(testimonial.length){
