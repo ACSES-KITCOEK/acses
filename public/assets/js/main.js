@@ -211,6 +211,11 @@
       });
     }
 
+// 12.5 Pop Up Img
+    $(document).ready(function() {
+      $('.image-link').magnificPopup({type:'image'});
+    });
+
 /* 13. counterUp*/
     $('.counter').counterUp({
       delay: 10,
